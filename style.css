@@ -31,3 +31,21 @@
     margin: auto;
     text-align: center;
 }
+
+#quiz > button{
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#quiz > button:hover{
+    background-color: #cf0099;
+    color: #46add3;
+    cursor: pointer;
+}
+
