@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Komikax;
+    src: url(deps/KOMIKAX_.ttf);
+}
+
+*{
+    font-family: komikax, serif;
+}
+
+.center-loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-loading-img{
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#page{
+    margin: auto;
+    text-align: center;
+}
