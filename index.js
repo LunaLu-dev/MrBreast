@@ -2,7 +2,7 @@ function loadingBar(){
     setTimeout(function(){
         document.getElementById("center-loading").style.display = "none";
         document.getElementById("page").style.display = "block";
-    }, 0)
+    }, 2000)
 }
 window.onload = loadingBar;
 slider();

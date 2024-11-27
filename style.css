@@ -5,6 +5,11 @@
 
 *{
     font-family: komikax, serif;
+    color: #f10779;
+}
+
+body{
+    background-image: url(img/jjifvgbd.jpg);
 }
 
 .center-loading{
@@ -47,5 +52,9 @@
     background-color: #cf0099;
     color: #46add3;
     cursor: pointer;
+}
+
+.slider{
+    background-color: #ffffff;
 }
 
